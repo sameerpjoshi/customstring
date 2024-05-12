@@ -1,0 +1,1 @@
+This is an implementation of custom string created assuming we dont have STL supported std::string.
