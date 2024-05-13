@@ -121,6 +121,10 @@
         return at(index);
     }
 
+    bool customstring::operator==(const customstring& other) const {
+        return compare(other) == 0;
+    }
+
 
 
     // Overloaded << operator for output stream

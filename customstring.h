@@ -50,6 +50,7 @@ public:
 
     // Overloaded [] operator for accessing individual characters
     char& operator[](size_t index) ;
+    bool operator==(const customstring &other) const;
     // Overloaded << operator for output stream
     friend std::ostream& operator<<(std::ostream& os, const customstring& str);
 };
